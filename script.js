@@ -10,7 +10,8 @@ const morph = gsap.to("#circle", {
   morphSVG: "#hippo",
   repeat: 1,
   yoyo: true,
-  repeatDelay: 0.2,
+  repeatDelay: 0.3,
+  paused: true
 });
 
 document.getElementById("play").onclick = function () {
